@@ -24,5 +24,8 @@ export default defineThemeConfig({
   social: [
     { icon: 'github', link: '/' },
   ],
-
+  footer: {
+    // message: "",
+    copyright: 'Copyright © 2024 QRDicDoc',
+  }
 })

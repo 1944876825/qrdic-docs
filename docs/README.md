@@ -9,7 +9,7 @@ config:
     hero:
       name: QRDicDoc
       tagline: QR 词库说明文档
-      # text: 一个简约的，功能丰富的 vuepress 文档&博客 主题
+      text: （非官方）
       actions:
         -
           theme: brand

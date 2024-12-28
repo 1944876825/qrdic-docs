@@ -16,8 +16,18 @@ export default defineUserConfig({
     // your git repo url
     docsRepo: '',
     docsDir: 'docs',
-
+    contributors: {
+      // mode: 'block',
+    },
+    changelog: {
+      maxCount: 10,
+      repoUrl: 'https://github.com/1944876825/qrdic-docs',
+      commitUrlPattern: ':repo/commit/:hash',
+      issueUrlPattern: ':repo/issues/:issue',
+      tagUrlPattern: ':repo/releases/tag/:tag'
+    },
     plugins: {
+      git: true,
       /**
        * Shiki 代码高亮
        * @see https://theme-plume.vuejs.press/config/plugins/code-highlight/
